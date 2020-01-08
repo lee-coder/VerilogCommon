@@ -3,3 +3,6 @@ clean:
  
 run:
   vcs -full64 -sverilog -R -f tb.f
+  
+verdi:
+  verdi -f tb.f -ssf tb.fsdb &
