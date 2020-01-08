@@ -19,7 +19,8 @@ module clock_divider(clk, out);
 		count = 0;
 	end
 
-	always @(posedge clk) begin
+	//always @(posedge clk) begin // DIV-16, actually out period is 32 times than clk
+	always @(clk) begin // DIV-16, out's period is 16-times than clk
 		if(count == (DIV - 1)) begin
 			count <= 0;
 			out <= ~out;
