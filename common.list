@@ -1,0 +1,18 @@
+./up_counter.v
+./uds_counter.v
+./sr_latch.v
+./mux2x.v
+./ts_buf.v
+./clock_divider.v
+./glitch_filter.v
+./shift_register.v
+./right_shiftreg.v
+./debouncer.v
+./i2c_listen.v
+./ram.v
+./uart_in.v
+./uart_out.v
+./file_to_stim.v
+
+
+// cmd vcs -f common.list
