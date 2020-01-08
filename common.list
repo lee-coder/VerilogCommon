@@ -13,3 +13,6 @@
 ./uart_in.v
 ./uart_out.v
 ./file_to_stim.v
+
+
+// cmd vcs -f common.list
